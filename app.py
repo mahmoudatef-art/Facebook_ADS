@@ -24,7 +24,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.calibration import CalibratedClassifierCV
 from sklearn.svm import SVC
 
-st.set_page_config(page_title="AdPulse | Click Prediction Studio", page_icon="📈", layout="wide")
+st.set_page_config(page_title="AdPulse | Click Prediction Studio", layout="wide")
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 T, S = "Time Spent on Site", "Salary"
